@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import 'tailwindcss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.column {
+  background-color: #1f1f1f;
+  width: 359px;
+  padding: 10px 20px;
+  color: #ffffff75;
+}
+.column h2 {
+  font-size: 24px;
+}
+.card {
+  width: 346px;
+  height: 153px;
+  background-color: #2B2B2B;
+  padding: 16px;
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+input {
+  border-bottom: 1px solid black;
+}
+
+@theme {
+  --color-blackbg: #1F1F1F;
+}
